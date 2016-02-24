@@ -1,0 +1,24 @@
+{
+  "name": "tangle-rec",
+  "version": "1.0.0",
+  "description": "A fun JavaScript library for working with rectangles",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattRooney/tangle-rec.git"
+  },
+  "keywords": [
+    "geometry",
+    "quadrilaterals",
+    "fun"
+  ],
+  "author": "Matt Rooney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MattRooney/tangle-rec/issues"
+  },
+  "homepage": "https://github.com/MattRooney/tangle-rec#readme"
+}
