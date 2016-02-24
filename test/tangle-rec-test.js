@@ -46,6 +46,31 @@ describe('Rectangle', function() {
       assert(this.rect.height, 'Instance does not have an "height".');
       assert.equal(this.rect.height, 4)
     });
+  });
 
-  })
+  describe('#perimeter', function() {
+
+    it('should have a perimeter method', function() {
+      assert(Rectangle.prototype.perimeter, 'Prototype does not have a perimeter method.');
+    });
+
+    it('should return the perimeter of the rectangle', function() {
+      var rect = new Rectangle(0, 0, 10, 10);
+      assert.equal(rect.perimeter(), 40);
+    });
+  });
+
+  describe('#area', function() {
+
+    it('should have an area method', function() {
+      assert(Rectangle.prototype.area, 'Prototype does not have an area method.');
+    });
+
+    it('should return the area of the rectangle', function() {
+      var rect = new Rectangle(0, 0, 10, 10);
+      assert.equal(rect.area(), 100);
+    });
+
+  });
+
 })

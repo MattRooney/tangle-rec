@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/MattRooney/tangle-rec/issues"
   },
-  "homepage": "https://github.com/MattRooney/tangle-rec#readme"
+  "homepage": "https://github.com/MattRooney/tangle-rec#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
 }
