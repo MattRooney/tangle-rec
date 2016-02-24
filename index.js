@@ -11,12 +11,16 @@ function Rectangle(x, y, width, height) {
 
 }
 
-Rectangle.prototype.perimeter = function() {
-  return 2 * (this.width + this.height);
-}
+Object.defineProperty(Rectangle.prototype, 'perimeter', {
+  get: function() {
+    return 2 * (this.width + this.height);
+  }
+});
 
-Rectangle.prototype.area = function() {
-  return this.width * this.height;
-}
+Object.defineProperty(Rectangle.prototype, 'area', {
+  get: function() {
+    return this.width * this.height;
+  }
+});
 
 module.exports = Rectangle;
